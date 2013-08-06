@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04C518217B14AE2009F4665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04C518117B14AE2009F4665 /* UIKit.framework */; };
+		D04C518417B14AE2009F4665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04C518317B14AE2009F4665 /* Foundation.framework */; };
+		D04C518617B14AE2009F4665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04C518517B14AE2009F4665 /* CoreGraphics.framework */; };
+		D04C518C17B14AE2009F4665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D04C518A17B14AE2009F4665 /* InfoPlist.strings */; };
+		D04C518E17B14AE2009F4665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C518D17B14AE2009F4665 /* main.m */; };
+		D04C519217B14AE2009F4665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C519117B14AE2009F4665 /* AppDelegate.m */; };
+		D04C519417B14AE2009F4665 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D04C519317B14AE2009F4665 /* Default.png */; };
+		D04C519617B14AE2009F4665 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D04C519517B14AE2009F4665 /* Default@2x.png */; };
+		D04C519817B14AE2009F4665 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D04C519717B14AE2009F4665 /* Default-568h@2x.png */; };
+		D04C519B17B14AE2009F4665 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04C519917B14AE2009F4665 /* MainStoryboard.storyboard */; };
+		D04C519E17B14AE2009F4665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C519D17B14AE2009F4665 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D04C517E17B14AE2009F4665 /* Molo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04C518117B14AE2009F4665 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D04C518317B14AE2009F4665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D04C518517B14AE2009F4665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D04C518917B14AE2009F4665 /* Molo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Molo2-Info.plist"; sourceTree = "<group>"; };
+		D04C518B17B14AE2009F4665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D04C518D17B14AE2009F4665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04C518F17B14AE2009F4665 /* Molo2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Molo2-Prefix.pch"; sourceTree = "<group>"; };
+		D04C519017B14AE2009F4665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D04C519117B14AE2009F4665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D04C519317B14AE2009F4665 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D04C519517B14AE2009F4665 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D04C519717B14AE2009F4665 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D04C519A17B14AE2009F4665 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D04C519C17B14AE2009F4665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D04C519D17B14AE2009F4665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04C517B17B14AE2009F4665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C518217B14AE2009F4665 /* UIKit.framework in Frameworks */,
+				D04C518417B14AE2009F4665 /* Foundation.framework in Frameworks */,
+				D04C518617B14AE2009F4665 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04C517517B14AE2009F4665 = {
+			isa = PBXGroup;
+			children = (
+				D04C518717B14AE2009F4665 /* Molo2 */,
+				D04C518017B14AE2009F4665 /* Frameworks */,
+				D04C517F17B14AE2009F4665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04C517F17B14AE2009F4665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04C517E17B14AE2009F4665 /* Molo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04C518017B14AE2009F4665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D04C518117B14AE2009F4665 /* UIKit.framework */,
+				D04C518317B14AE2009F4665 /* Foundation.framework */,
+				D04C518517B14AE2009F4665 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04C518717B14AE2009F4665 /* Molo2 */ = {
+			isa = PBXGroup;
+			children = (
+				D04C519017B14AE2009F4665 /* AppDelegate.h */,
+				D04C519117B14AE2009F4665 /* AppDelegate.m */,
+				D04C519917B14AE2009F4665 /* MainStoryboard.storyboard */,
+				D04C519C17B14AE2009F4665 /* ViewController.h */,
+				D04C519D17B14AE2009F4665 /* ViewController.m */,
+				D04C518817B14AE2009F4665 /* Supporting Files */,
+			);
+			path = Molo2;
+			sourceTree = "<group>";
+		};
+		D04C518817B14AE2009F4665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04C518917B14AE2009F4665 /* Molo2-Info.plist */,
+				D04C518A17B14AE2009F4665 /* InfoPlist.strings */,
+				D04C518D17B14AE2009F4665 /* main.m */,
+				D04C518F17B14AE2009F4665 /* Molo2-Prefix.pch */,
+				D04C519317B14AE2009F4665 /* Default.png */,
+				D04C519517B14AE2009F4665 /* Default@2x.png */,
+				D04C519717B14AE2009F4665 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04C517D17B14AE2009F4665 /* Molo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04C51A117B14AE2009F4665 /* Build configuration list for PBXNativeTarget "Molo2" */;
+			buildPhases = (
+				D04C517A17B14AE2009F4665 /* Sources */,
+				D04C517B17B14AE2009F4665 /* Frameworks */,
+				D04C517C17B14AE2009F4665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molo2;
+			productName = Molo2;
+			productReference = D04C517E17B14AE2009F4665 /* Molo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04C517617B14AE2009F4665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lean Develop";
+			};
+			buildConfigurationList = D04C517917B14AE2009F4665 /* Build configuration list for PBXProject "Molo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D04C517517B14AE2009F4665;
+			productRefGroup = D04C517F17B14AE2009F4665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04C517D17B14AE2009F4665 /* Molo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04C517C17B14AE2009F4665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C518C17B14AE2009F4665 /* InfoPlist.strings in Resources */,
+				D04C519417B14AE2009F4665 /* Default.png in Resources */,
+				D04C519617B14AE2009F4665 /* Default@2x.png in Resources */,
+				D04C519817B14AE2009F4665 /* Default-568h@2x.png in Resources */,
+				D04C519B17B14AE2009F4665 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04C517A17B14AE2009F4665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C518E17B14AE2009F4665 /* main.m in Sources */,
+				D04C519217B14AE2009F4665 /* AppDelegate.m in Sources */,
+				D04C519E17B14AE2009F4665 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D04C518A17B14AE2009F4665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04C518B17B14AE2009F4665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D04C519917B14AE2009F4665 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04C519A17B14AE2009F4665 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04C519F17B14AE2009F4665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D04C51A017B14AE2009F4665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04C51A217B14AE2009F4665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molo2/Molo2-Prefix.pch";
+				INFOPLIST_FILE = "Molo2/Molo2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D04C51A317B14AE2009F4665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molo2/Molo2-Prefix.pch";
+				INFOPLIST_FILE = "Molo2/Molo2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04C517917B14AE2009F4665 /* Build configuration list for PBXProject "Molo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C519F17B14AE2009F4665 /* Debug */,
+				D04C51A017B14AE2009F4665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04C51A117B14AE2009F4665 /* Build configuration list for PBXNativeTarget "Molo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C51A217B14AE2009F4665 /* Debug */,
+				D04C51A317B14AE2009F4665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04C517617B14AE2009F4665 /* Project object */;
+}
